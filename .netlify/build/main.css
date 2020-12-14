@@ -1,0 +1,805 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body .head .right {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+body .head .right .logo {
+  width: 60%;
+  margin: auto;
+  font-size: 15vmin;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10vmin, 20vmin))[4];
+      grid-template-columns: repeat(4, minmax(10vmin, 20vmin));
+  -ms-grid-rows: (minmax(10vmin, 20vmin))[4];
+      grid-template-rows: repeat(4, minmax(10vmin, 20vmin));
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+}
+
+body .head .right .des {
+  width: 60%;
+  margin: auto;
+  text-align: start;
+  word-spacing: .5vmin;
+}
+
+body .head .right .des p {
+  line-height: 1.7rem;
+}
+
+body .head .right .des p::first-letter {
+  font-size: 2rem;
+  font-family: 'Cinzel', serif;
+  display: block;
+  background: #cebbbb;
+  color: #271a1a;
+  padding: 0 .4rem;
+  margin: .2rem .2rem;
+}
+
+body .head .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+}
+
+body .head .left .top {
+  height: 30%;
+  width: 30vw;
+  background: #b6b3b3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+body .head .left .top .intro {
+  width: 80%;
+  padding-left: 1rem;
+}
+
+body .head .left .top .intro h1 {
+  font-weight: 300;
+}
+
+body .head .left .top .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .head .left .top .date .spacer {
+  width: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .head .left .image1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/woman-behind-a-plastic-with-face-mask-3952197.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body .sec2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  background: #c5a0a0;
+}
+
+body .sec2 .top {
+  min-height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+body .sec2 .top .early {
+  width: 30%;
+  padding: 1rem;
+}
+
+body .sec2 .top .early h1 {
+  font-weight: 500;
+}
+
+body .sec2 .top .spacer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .sec2 .top .early-des {
+  width: 30%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .sec2 .top .early-des p {
+  padding: 1rem;
+  word-spacing: .5vmin;
+}
+
+body .sec2 .bottom {
+  min-height: 75vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .sec2 .bottom .image2 {
+  width: 34%;
+  min-height: 90%;
+  background-image: url(./images/photo-of-people-hugging-each-other-3373350.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body .sec2 .bottom .image3 {
+  width: 34%;
+  min-height: 90%;
+  background-image: url(./images/photo-of-woman-in-a-dark-room-3921853.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body .sec2 .bottom .description {
+  width: 30%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .sec2 .bottom .description p {
+  padding: 1rem;
+  margin-bottom: 0;
+  word-spacing: .5vmin;
+}
+
+body .sec3-mobile {
+  display: none;
+}
+
+body .sec3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100vw;
+  min-height: 150vh;
+}
+
+body .sec3 .sec3-right {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 150vh;
+}
+
+body .sec3 .sec3-right .image4 {
+  background-image: url(./images/bald-woman-touching-clear-glass-window-1895161.jpg);
+  width: 60%;
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+body .sec3 .sec3-right .style-influence {
+  width: 25vw;
+  min-height: 50vh;
+  word-spacing: .5vmin;
+}
+
+body .sec3 .sec3-left {
+  width: 70vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 150vh;
+  width: 70vw;
+}
+
+body .sec3 .sec3-left .sec3-header-intro {
+  padding: 1rem;
+}
+
+body .sec3 .sec3-left .sec3-intro {
+  width: 70%;
+  font-weight: 700;
+  font-size: 3vmin;
+  padding: 1rem;
+  word-spacing: .5vmin;
+}
+
+body .sec3 .sec3-left .sec3-img2 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .sec3 .sec3-left .sec3-img2 .image5 {
+  background-image: url(./images/woman-leaning-on-glass-wall-2018290.jpg);
+  min-height: 90vh;
+  width: 50vw;
+  background-size: cover;
+  background-position: center;
+}
+
+body .sec3 .sec3-left .sec3-img2 .img-des {
+  min-height: 30vh;
+  width: 25vw;
+  padding-left: 1rem;
+  word-spacing: .5vmin;
+}
+
+body .sec4-mobile {
+  display: none;
+}
+
+body .sec4 {
+  width: 100vw;
+  min-height: 100vh;
+  background: #b6b3b3;
+}
+
+body .sec4 .sec4-header {
+  width: 100%;
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .sec4 .sec4-header .spacer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .sec4 .sec4-header .sec4-header-intro {
+  padding: 1rem;
+}
+
+body .sec4 .sec4-header .follow {
+  padding: 1rem;
+}
+
+body .sec4 .sec4-img1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+body .sec4 .sec4-img1 .image6 {
+  width: 70%;
+  min-height: 70vh;
+  background-image: url("./images/profile3.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: blur(50);
+          filter: blur(50);
+}
+
+body .sec4 .sec4-img1 .sec4-img1-des {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .sec4 .sec4-img1 .sec4-img1-des p {
+  width: 70%;
+  padding: 0 0 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  word-spacing: .5vmin;
+}
+
+body .sec4 .sec4-img1 .sec4-img1-des .footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+  }
+  body .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  body .head .right {
+    width: 100vw;
+    min-height: 80vh;
+    padding: 0;
+    margin: 0;
+  }
+  body .head .right .logo {
+    width: 100vw;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    margin: 0;
+    background-image: url(./images/woman-behind-a-plastic-with-face-mask-3952197.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #816161;
+    min-height: 50vh;
+  }
+  body .head .right .des {
+    min-width: 100%;
+    margin: auto;
+    text-align: center;
+    min-height: 30vh;
+    margin: 0;
+    padding: 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #2a2727;
+  }
+  body .head .right .des p {
+    width: 90%;
+    margin: auto;
+    color: #fff;
+  }
+  body .head .left {
+    width: 100vw;
+    min-height: 18vh;
+  }
+  body .head .left .top {
+    width: 100vw;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body .head .left .top .intro {
+    width: 90%;
+    text-align: center;
+  }
+  body .head .left .image1 {
+    display: none;
+  }
+  body .sec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  body .sec2 .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  body .sec2 .top .early {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+  body .sec2 .top .spacer {
+    width: 90vw;
+    margin: auto;
+    min-height: 60vh;
+    background-image: url(./images/photo-of-woman-in-a-dark-room-3921853.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  body .sec2 .top .early-des {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  body .sec2 .top .early-des p {
+    padding-top: 0;
+  }
+  body .sec2 .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  body .sec2 .bottom .image2 {
+    background-image: url(./images/photo-of-people-hugging-each-other-3373350.jpg);
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  body .sec2 .bottom .image3 {
+    display: none;
+  }
+  body .sec2 .bottom .description {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  body .sec3-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  body .sec3-mobile .sec3-header-intro {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    background: #2a2727;
+    color: #fff;
+  }
+  body .sec3-mobile .sec3-intro {
+    width: 100vw;
+    background-image: url(./images/bald-woman-touching-clear-glass-window-1895161.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+  }
+  body .sec3-mobile .sec3-intro .bg-filter {
+    position: absolute;
+    width: 100vw;
+    min-height: 70vh;
+    background: #000;
+    opacity: .5;
+  }
+  body .sec3-mobile .sec3-intro p {
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: 7vmin;
+    z-index: 1;
+  }
+  body .sec3-mobile .sec3-date {
+    width: 100%;
+    text-align: center;
+    font-size: 2vmax;
+  }
+  body .sec3-mobile .sec3-date h1 {
+    font-weight: 200;
+  }
+  body .sec3-mobile .img-des {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .sec3-mobile .img-des p {
+    width: 90%;
+    text-align: center;
+  }
+  body .sec3-mobile .image5 {
+    width: 100%;
+    margin: auto;
+    min-height: 70vh;
+    background-image: url(./images/woman-leaning-on-glass-wall-2018290.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  body .sec3 {
+    display: none;
+  }
+  body .sec4-mobile {
+    width: 100vw;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .sec4-mobile .sec4-header-intro {
+    width: 100%;
+    min-height: 20vh;
+    background: #271a1a;
+    color: #fff;
+  }
+  body .sec4-mobile .sec4-header-intro h1 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    min-height: 20vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .sec4-mobile .sec4-img1-des {
+    width: 100%;
+    min-height: 35vh;
+    background-image: url(./images/profile3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem 0;
+  }
+  body .sec4-mobile .sec4-img1-des .bg-filter2 {
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+    z-index: 0;
+  }
+  body .sec4-mobile .sec4-img1-des p {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 5vmin;
+    z-index: 2;
+    color: #fff;
+  }
+  body .sec4-mobile .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    min-height: 50vh;
+    background: #b6b3b3;
+  }
+  body .sec4-mobile .footer .follow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 30vh;
+  }
+  body .sec4-mobile .footer .footer-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    min-height: 10vh;
+    margin: 0 1rem;
+  }
+  body .sec4 {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

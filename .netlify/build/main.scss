@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400&family=Oswald:wght@300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    // font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        // align-items: center;
+        justify-content: center;
+        width: 100vw;
+        min-height: 100vh;
+        overflow-x: hidden;
+
+        .right {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+
+            .logo {
+                width: 60%;
+                margin: auto;
+                font-size: 15vmin;
+                display: grid;
+                grid-template-columns: repeat(4, minmax(10vmin, 20vmin));
+                grid-template-rows: repeat(4, minmax(10vmin, 20vmin));
+                font-family: 'Cinzel', serif;
+                font-weight: 400;
+
+                // h1 {
+                //     font-size: 15vmin;
+                //     min-height: 50%;
+                //     margin: auto;
+                //     letter-spacing: -3px;
+                //     width: 60%;
+                //     display: flex;
+                //     flex-wrap: wrap;
+                //     font-weight: 200;
+                // }
+            }
+
+            .des {
+                width: 60%;
+                margin: auto;
+                text-align: start;
+                // letter-spacing: .15vmin;
+                word-spacing: .5vmin;
+
+                p {
+                    line-height: 1.7rem;
+                }
+                
+
+                p::first-letter {
+                    font-size: 2rem;
+                    font-family: 'Cinzel', serif;
+                    display: block;
+                    background: rgb(206, 187, 187);
+                    color: rgb(39, 26, 26);
+                    padding: 0 .4rem;
+                    margin: .2rem .2rem;
+            
+                }   
+            }
+
+        }
+
+        .left {
+            // margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+
+            .top {
+                height: 30%;
+                width: 30vw;
+                background: rgb(182, 179, 179);
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+
+                .intro {
+                    width: 80%;
+                    padding-left: 1rem;
+
+                    h1 {
+                        font-weight: 300;
+                        // padding: 0;
+                        // margin: 0;
+                    }
+                }
+
+                .date {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    .spacer {
+                        width: 20vw;
+                        display: flex;
+                        // align-items: center;
+
+                        justify-content: center;
+
+                    }
+                }
+            }
+
+
+            .image1 {
+                height: 100%;
+                width: 100%;
+                background-image: url('./images/woman-behind-a-plastic-with-face-mask-3952197.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+        }
+    }
+
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100vw;
+        background: rgb(197, 160, 160);
+
+        .top {
+            min-height: 25%;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            
+            .early {
+                width: 30%;
+                padding: 1rem;
+                // font-size: 200;
+
+                h1 {
+                    font-weight: 500;
+
+                }
+            }
+
+            .spacer {
+                flex: 1;
+            }
+
+            .early-des {
+                width: 30%;
+                justify-content: space-between;
+                
+
+                p {
+                    padding: 1rem;
+                    word-spacing: .5vmin;
+
+                }
+            }
+        }
+
+        .bottom {
+            min-height: 75vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            // align-items: flex-end;
+
+            .image2 {
+                width: 34%;
+                min-height: 90%;
+                background-image: url(./images/photo-of-people-hugging-each-other-3373350.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            .image3 {
+                width: 34%;
+                min-height: 90%;
+                background-image: url(./images/photo-of-woman-in-a-dark-room-3921853.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+
+            .description {
+                width: 30%;
+                min-height: 100%;
+                display: flex;
+                align-items: flex-end;
+                // margin-bottom: 0;
+                
+
+                p {
+                    padding: 1rem;
+                    // padding-bottom: 0;
+                    margin-bottom: 0;
+                    word-spacing: .5vmin;
+
+                }
+            }
+        }
+    }
+
+    .sec3-mobile {
+        display: none;
+    }
+
+    .sec3 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        // flex-wrap: wrap;
+        min-height: 150vh;
+        // padding: 1rem;
+
+        .sec3-right {
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 150vh;
+
+            .image4 {
+                background-image: url(./images/bald-woman-touching-clear-glass-window-1895161.jpg);
+                width: 60%;
+                min-height: 50vh;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .style-influence {
+                width: 25vw;
+                min-height: 50vh;
+                word-spacing: .5vmin;
+
+            }
+        }
+
+        .sec3-left {
+            width: 70vw;
+            display: flex;
+            flex-direction: column;
+            min-height: 150vh;
+            width: 70vw;
+
+
+            .sec3-header-intro {
+                padding: 1rem;
+            }
+
+            .sec3-intro {
+                width: 70%;
+                font-weight: 700;
+                font-size: 3vmin;
+                padding: 1rem;
+                word-spacing: .5vmin;
+
+            }
+
+            .sec3-img2 {
+                width: 100%;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                // align-items: center;
+
+
+                .image5 {
+                    background-image: url(./images/woman-leaning-on-glass-wall-2018290.jpg);
+                    min-height: 90vh;
+                    width: 50vw;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .img-des {
+                    min-height: 30vh;
+                    width: 25vw;
+                    padding-left: 1rem;
+                    word-spacing: .5vmin;
+
+                }
+            }
+        }
+    }
+
+    .sec4-mobile {
+        display: none;
+    }
+
+    .sec4 {
+        width: 100vw;
+        min-height: 100vh;
+        background: rgb(182, 179, 179);
+        // z-index: 1;
+
+
+        .sec4-header {
+            width: 100%;
+            min-height: 30vh;
+            display: flex;
+            flex-direction: row;
+
+            .spacer {
+                flex: 1;
+            }
+
+            .sec4-header-intro {
+                padding: 1rem;
+            }
+
+            .follow {
+                padding: 1rem;
+            }
+
+        }
+
+        .sec4-img1 {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            // align-items: center;
+            min-height: 70vh;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+
+
+
+            .image6 {
+                width: 70%;
+                min-height: 70vh;
+                background-image: url('./images/profile3.jpg');
+                background-size: cover;
+                background-position: center;
+                filter: blur(50);
+            }
+
+            .sec4-img1-des {
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                p {
+                    width: 70%;
+                    padding:0 0 1rem 2rem;
+                    display: flex;
+                    align-items: flex-end;
+                    text-align: center;
+                    word-spacing: .5vmin;
+
+                }
+
+                .footer {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    body {
+        padding: 0;
+        margin: 0;
+        min-height: 100vh;
+
+        .head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            width: 100vw;
+
+            .right {
+                width: 100vw;
+                min-height: 80vh;
+                padding: 0;
+                margin: 0;
+                .logo {
+                    width: 100vw;
+                    text-align: center;
+                    display: grid;
+                    place-content: center;
+                    margin: 0;
+                    background-image: url(./images/woman-behind-a-plastic-with-face-mask-3952197.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    color: rgb(129, 97, 97);
+                    min-height: 50vh;
+                }
+
+                .des {
+                    min-width: 100%;
+                    margin: auto;
+                    text-align: center;
+                    min-height: 30vh;
+                    margin: 0;
+                    padding: 2rem 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: rgb(42, 39, 39);
+
+                    p {
+                        width: 90%;
+                        margin: auto;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .left {
+                width: 100vw;
+                min-height: 18vh;
+                .top {
+                    width: 100vw;
+                    height: 100%;
+                    padding-left: 0;
+                    padding-right: 0;
+                    .intro {
+                        width: 90%;
+                        text-align: center;
+                    }
+
+                }
+
+                .image1 {
+                    display: none;
+                }
+            }
+        }
+
+        .sec2 {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+            .top {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .early {
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                    padding: 0;
+                    // margin: 0;
+                }
+
+                .spacer {
+                    // display: none;
+                    width: 90vw;
+                    margin: auto;
+                    min-height: 60vh;
+                    background-image: url(./images/photo-of-woman-in-a-dark-room-3921853.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .early-des {
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                    // padding: 0;
+
+                    p {
+                        padding-top: 0;
+                    }
+                }
+
+            }
+
+            .bottom {
+                display: flex;
+                flex-direction: column;
+                width: 100vw;
+                padding: 0;
+                margin: 0;
+                .image2 {
+                    background-image: url(./images/photo-of-people-hugging-each-other-3373350.jpg);
+                    width: 90%;
+                    height: 60vh;
+                    margin: auto;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .image3 {
+                    display: none;
+                }
+
+                .description {
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+        }
+
+        .sec3-mobile {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            min-height: 100vh;
+
+            .sec3-header-intro {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                // padding: 0 2rem 0 2rem;
+                margin: 0;
+                background: rgb(42, 39, 39);
+                color: #fff;
+
+                // h1 {
+                //     padding: 0;
+                //     margin: 0;
+                // }
+            }
+
+            .sec3-intro {
+                width: 100vw;
+                background-image: url(./images/bald-woman-touching-clear-glass-window-1895161.jpg);
+                background-size: cover;
+                min-height: 70vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .bg-filter {
+                    position: absolute;
+                    width: 100vw;
+                    min-height: 70vh;
+                    background: #000;
+                    opacity: .5;
+                }
+
+                p {
+                    width: 80%;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 7vmin;
+                    z-index: 1;
+
+                }
+            }
+
+            .sec3-date {
+                width: 100%;
+                text-align: center;
+                font-size: 2vmax;
+                // font-weight: lighter;
+
+                h1 {
+                    font-weight: 200;
+                }
+            }
+
+            .img-des {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    width: 90%;
+                    text-align: center;
+                }
+            }
+
+            .image5 {
+                width: 100%;
+                margin: auto;
+                min-height: 70vh;
+                background-image: url(./images/woman-leaning-on-glass-wall-2018290.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        .sec3 {
+            display: none;
+
+        }
+
+        .sec4-mobile {
+            width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            // overflow: scroll;
+
+
+            .sec4-header-intro {
+                width: 100%;
+                min-height: 20vh;
+                background: rgb(39, 26, 26);
+                color: #fff;
+
+
+                h1 {
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                    min-height: 20vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .sec4-img1-des {
+                width: 100%;
+                min-height: 35vh;
+                background-image: url(./images/profile3.jpg);
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 2rem 0;
+
+
+
+                .bg-filter2 {
+                    position: absolute;
+                    min-height: 100vh;
+                    // top: 0;
+                    width: 100%;
+                    background: #000;
+                    opacity: .7;
+                    z-index: 0;
+                    // overflow: hidden;
+                }
+
+                p {
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                    // padding: 1rem 0;
+                    font-size: 5vmin;
+                    z-index: 2;
+                    color: #fff;
+                }
+            }
+
+            .footer {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100vw;
+                min-height: 50vh;
+                background: rgb(182, 179, 179);
+
+
+                .follow {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 30vh;
+                    // padding: 3rem 0 0 0;
+                }
+
+                .footer-logo {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-evenly;
+                    min-height: 10vh;
+                    // padding: 0 3rem;
+                    margin: 0 1rem;
+                }
+            }
+        }
+
+        .sec4 {
+            display: none;
+        }
+
+
+    }
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
